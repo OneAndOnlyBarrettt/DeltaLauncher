@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Questrial-Regular;
+    src: url(Questrial-Regular.ttf);
+}
+
+body {
+    font-family: Questrial-Regular;
+    background-color: #221e22;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+}
+
+a{
+    display: flex;
+    position: relative;
+    background: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center; 
+    outline: #5a0fe4;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+a:hover {
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+    text-shadow: 0 0 10px #5a0fe4,
+                 0 0 20px #5a0fe4,
+                 0 0 40px #5a0fe4,
+                 0 0 60px #5a0fe4,
+                 0 0 80px #5a0fe4;
+}
+
+.discord {
+    justify-content: left;
+    scale: 5%;
+    padding-left: 60%;
+}
